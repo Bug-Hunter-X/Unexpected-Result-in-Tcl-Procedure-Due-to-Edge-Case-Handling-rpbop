@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Tcl related to edge case handling within a procedure. The `get_value` procedure is designed to return 100 if the input is greater than 10 and 0 otherwise. However, the provided code does not handle the edge case of input value being exactly 10. The bug and its solution are detailed in the respective `.tcl` files.
